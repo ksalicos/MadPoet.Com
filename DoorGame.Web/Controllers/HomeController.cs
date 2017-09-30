@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace DoorGame.Web.Controllers
+namespace Madpoet.Web.Controllers
 {
     public class HomeController : Controller
     {

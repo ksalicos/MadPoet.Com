@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using DoorGame.Web.Models;
+using Madpoet.Web.Models;
 
-namespace DoorGame.Web
+namespace Madpoet.Web
 {
     public partial class Startup
     {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(DoorGame.Web.Startup))]
-namespace DoorGame.Web
+[assembly: OwinStartupAttribute(typeof(Madpoet.Web.Startup))]
+namespace Madpoet.Web
 {
     public partial class Startup
     {

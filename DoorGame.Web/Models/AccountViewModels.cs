@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace DoorGame.Web.Models
+namespace Madpoet.Web.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

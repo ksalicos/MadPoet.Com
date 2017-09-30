@@ -1,46 +1,36 @@
-﻿import React, {
-    Component,
-    } from 'react';
-
+﻿import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { initializeHub, hub } from './hub';
+import BoxesComponent from './boxesComponent';
 
-import {
-    activateGeod,
-    closeGeod,
-    } from './reduxsrc';
+//import {
+//    //activateGeod,
+//    //closeGeod,
+//    } from './reduxsrc';
 
 // App.js
 export class App extends Component {
+    componentDidMount() {
+        initializeHub();
+    };
 
     render() {
         return (
             <div>
-
-                <h1>{this.props.geod.title || 'Hello World!'}</h1>
-
-                {this.props.geod.title ?
-                    <button onClick={this.props.closeGeod}>
-                        Exit Geod
-          </button> :
-                    <button onClick={() => this.props.activateGeod({ title: 'I am a geo dude!' })}>
-                        Click Me!
-          </button>
-                }
-
+                <BoxesComponent />
             </div>
         );
-    }
-
+    };
 }
 
 // AppContainer.js
 const mapStateToProps = (state, ownProps) => ({
-    geod: state.geod,
+    colors: state.colors,
 });
 
 const mapDispatchToProps = {
-    activateGeod,
-    closeGeod,
+    //activateGeod,
+    //closeGeod,
 };
 
 const AppContainer = connect(

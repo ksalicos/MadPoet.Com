@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace DoorGame.Web
+namespace Madpoet.Web
 {
     public class BundleConfig
     {

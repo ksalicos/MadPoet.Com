@@ -10,9 +10,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using DoorGame.Web.Models;
+using Madpoet.Web.Models;
 
-namespace DoorGame.Web
+namespace Madpoet.Web
 {
     public class EmailService : IIdentityMessageService
     {
