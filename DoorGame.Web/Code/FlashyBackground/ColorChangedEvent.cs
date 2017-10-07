@@ -1,6 +1,6 @@
 ﻿using Common.Messaging.Events;
 
-namespace Madpoet.Web.Code
+namespace DoorGame.Web.Code.FlashyBackground
 {
     public class ColorChangedEvent : IEvent
     {

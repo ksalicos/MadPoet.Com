@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -197,12 +198,12 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Code\BackgroundData.cs" />
-    <Compile Include="Code\ChangeColorCommand.cs" />
-    <Compile Include="Code\ChangeColorCommandHandler.cs" />
-    <Compile Include="Code\ColorChangedEvent.cs" />
-    <Compile Include="Code\ColorChangeFailedEvent.cs" />
-    <Compile Include="Code\InitEvent.cs" />
+    <Compile Include="Code\FlashyBackground\BackgroundData.cs" />
+    <Compile Include="Code\FlashyBackground\ChangeColorCommand.cs" />
+    <Compile Include="Code\FlashyBackground\ChangeColorCommandHandler.cs" />
+    <Compile Include="Code\FlashyBackground\ColorChangedEvent.cs" />
+    <Compile Include="Code\FlashyBackground\ColorChangeFailedEvent.cs" />
+    <Compile Include="Code\FlashyBackground\InitEvent.cs" />
     <Compile Include="Code\SignalRCallback.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">

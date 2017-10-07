@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
 using System.Threading.Tasks;
-using System.Web;
-using Microsoft.Ajax.Utilities;
 
-namespace Madpoet.Web.Code
+namespace DoorGame.Web.Code.FlashyBackground
 {
     public class BackgroundData
     {

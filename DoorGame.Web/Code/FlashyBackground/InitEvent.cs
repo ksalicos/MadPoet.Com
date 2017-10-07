@@ -1,8 +1,6 @@
-﻿using System;
-using Common.Messaging.Commands;
-using Common.Messaging.Events;
+﻿using Common.Messaging.Events;
 
-namespace Madpoet.Web.Code
+namespace DoorGame.Web.Code.FlashyBackground
 {
     public class InitEvent : IEvent
     {

@@ -6,6 +6,7 @@ using System.Web;
 using Common.Messaging.Callbacks;
 using Common.Messaging.Commands;
 using Common.Messaging.Dispatchers;
+using DoorGame.Web.Code.FlashyBackground;
 using Madpoet.Web.Code;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.SignalR;

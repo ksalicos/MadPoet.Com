@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Web;
+﻿using System.Threading.Tasks;
 using Common.Messaging.Commands;
 using Common.Messaging.Events;
 using Common.Messaging.Handlers;
 
-namespace Madpoet.Web.Code
+namespace DoorGame.Web.Code.FlashyBackground
 {
     [Handles("ChangeColorCommand")]
     public class ChangeColorCommandHandler : ICommandHandler

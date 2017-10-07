@@ -1,7 +1,7 @@
 ﻿using System;
 using Common.Messaging.Commands;
 
-namespace Madpoet.Web.Code
+namespace DoorGame.Web.Code.FlashyBackground
 {
     public class ChangeColorCommand : ICommand
     {
